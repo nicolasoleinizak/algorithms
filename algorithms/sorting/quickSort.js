@@ -24,4 +24,4 @@ const quickSort = (array, result = []) => {
   .concat(quickSort(array.slice(p+1)));
 }
 
-console.log(quickSort([666,15,97,23,756,132,567,1,9,23]));
+console.log(quickSort([666,15,97,23,756,132,567,1,9,23, 10000]));
